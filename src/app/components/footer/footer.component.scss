@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 1em 20px;
+    font-size: small;
+    direction: ltr;
+    text-align: center;
+
+}
+footer {
+    background: #333;
+    color: #fff !important;
+
+}
+footer a {
+   color:  rgb(173, 216, 230)
+}
+.openjsfoundation-footer-links{
+    margin: 10px 0;
+    font-size: 15px;
+}

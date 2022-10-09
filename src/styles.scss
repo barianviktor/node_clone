@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+$light-main-color : #333;
+$light-main-background:#FFFFFF;
+$light-main-secondary:#43853D;
+$light-text-color1: #ccc;
+$light-text-color2 : #333;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+body{
+    font: 400 20px/1.5 "Source Sans Pro", "Open Sans", Roboto, "San Francisco", Helvetica, Arial, sans-serif;
+    
+}
+p, h1,h2,h3,h4,h5 {
+    font-weight: 400;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color 0.24s ease;
+    font-weight: 400;
+}

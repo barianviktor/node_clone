@@ -1,0 +1,30 @@
+<header>
+  <div class="container">
+    <a class="logo" [routerLink]="['/']">
+      <img src="https://nodejs.org/static/images/logo.svg" />
+    </a>
+    <nav>
+      <ul class="list-divider-pipe">
+        <li>
+          <a
+            [routerLink]="['/']"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/about']" routerLinkActive="active">About</a>
+        </li>
+        <li>
+          <a [routerLink]="['/downloads']" routerLinkActive="active"
+            >Downloads</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="switches">
+      <button class="dark-theme-switcher"></button>
+    </div>
+  </div>
+</header>

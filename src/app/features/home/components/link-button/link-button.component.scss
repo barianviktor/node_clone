@@ -1,0 +1,50 @@
+.home-downloadblock{
+    display: inline-block;
+    
+    margin: 0 8px;
+}
+
+.home-downloadbutton{
+    display: block;
+    margin: 10px 4px;
+    padding: 0.2em 0.6em;
+    background-color: #026e00;
+    color: #fff !important;
+    border-radius: 5px;
+        font-size: 30px;
+    font-weight: 400;
+    transition: background-color 0.2s ease-in-out;
+}
+.home-downloadbutton:hover{
+    background-color: #43853D;
+
+}
+small {
+    display: block;
+    font-size: 1rem;
+}
+ul {
+    color: #51744e;
+    font-size: 0.9rem;
+}
+li {
+    display: inline-block;
+}
+.home-secondary-links a {
+    color: #51744e;
+    text-decoration:none
+}
+.home-secondary-links a:hover{
+    text-decoration: underline;
+}
+li::before {
+    content: "|";
+    padding: 0 0.3em 0 0.1em;
+    color: #999;
+}
+li:nth-child(1)::before{
+    content: '';
+}
+a {
+    cursor: pointer;
+}

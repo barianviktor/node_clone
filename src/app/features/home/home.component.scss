@@ -1,0 +1,31 @@
+.container {
+    padding: 0 20px;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.home-intro{
+    max-width: 735px;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+}
+h2 {
+    font-weight: 400;
+    margin-top: 25px;
+}
+ a {
+    color: #43853d;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px;
+ }
+ p a:hover{
+  
+    background:  #43853d;
+    color: white;
+ }
+ p{
+    margin: 20px 0;
+ }
