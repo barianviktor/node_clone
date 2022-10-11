@@ -1,3 +1,5 @@
+@import "../../colors";
+
 .container {
     padding: 0 20px;
     width: 100%;
@@ -16,14 +18,14 @@ h2 {
     margin-top: 25px;
 }
  a {
-    color: #43853d;
+    color: $link-color;
     text-decoration: none;
     border-radius: 5px;
     padding: 3px;
  }
  p a:hover{
   
-    background:  #43853d;
+    background: $link-color;
     color: white;
  }
  p{

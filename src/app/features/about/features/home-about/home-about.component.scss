@@ -1,3 +1,5 @@
+@import "../../../../colors";
+
 h1, h2{
     font-weight: 400;
     font-size: 1.5em;
@@ -13,7 +15,7 @@ p {
     margin-inline-end: 0px;
 }
 a {
-    color: #43853d;
+    color: $link-color;
     text-decoration: none;
     border-radius: 5px;
     word-break: break-word;

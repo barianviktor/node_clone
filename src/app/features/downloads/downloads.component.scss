@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.color-lightgray {
+    color: #999;
+}
+strong {
+     font-weight: 600;
+}
+.download-hero {
+    margin-bottom: 1em;
+}
+.full-width {
+    width: 100%;
+}
+
+.download-hero .download-version-toggle {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+.download-hero ul {
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+.no-padding {
+    padding: 0;
+}

@@ -1,3 +1,4 @@
+@import "../../colors";
 .container{
     padding: 0 20px;
     width: 100vw;
@@ -9,9 +10,7 @@ nav{
     float: left;
     margin-top: 1.5em;
 }
-.active {
-    color: red;
-}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -28,32 +27,20 @@ nav ul li a {
     line-height: 1;
     text-decoration: none;
     border-radius: 5px;
-    color: #026E00;
+    color: $button-primary ;
 
 }
 
 .active {
-    background: #026E00;
+    background: $button-primary !important;
     color: white !important;
 
 }
 nav ul li a:hover{
-    background:#43853d;
+    background:$button-primary-hover;
     color: white ;
 }
 article {
     padding: 20px 0;
     margin-left: 220px;
 }
-
-/* .container {
-    width: 100vw;
-    background-color: red;
-    max-width: 900px;
-}
-nav{
-    background-color: beige;
-}
-article {
-    background-color: aqua;
-} */

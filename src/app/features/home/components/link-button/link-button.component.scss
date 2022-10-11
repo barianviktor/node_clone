@@ -1,3 +1,5 @@
+@import "../../../../colors";
+
 .home-downloadblock{
     display: inline-block;
     
@@ -8,7 +10,7 @@
     display: block;
     margin: 10px 4px;
     padding: 0.2em 0.6em;
-    background-color: #026e00;
+    background-color: $button-primary;
     color: #fff !important;
     border-radius: 5px;
         font-size: 30px;
@@ -16,7 +18,7 @@
     transition: background-color 0.2s ease-in-out;
 }
 .home-downloadbutton:hover{
-    background-color: #43853D;
+    background-color:  $button-primary-hover;
 
 }
 small {
@@ -24,14 +26,14 @@ small {
     font-size: 1rem;
 }
 ul {
-    color: #51744e;
+    color: $link-color;
     font-size: 0.9rem;
 }
 li {
     display: inline-block;
 }
 .home-secondary-links a {
-    color: #51744e;
+    color: $link-color;
     text-decoration:none
 }
 .home-secondary-links a:hover{
